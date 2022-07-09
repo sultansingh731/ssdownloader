@@ -1,5 +1,6 @@
 const express = require("express")
-const {downloaderRouter} = require("./src/routes/router")
+require("dotenv").config()
+const {downloaderRouter} = require("./src/routes")
 
 const app = express()
 app.use("/download", downloaderRouter)
