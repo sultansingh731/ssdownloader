@@ -1,0 +1,25 @@
+{
+  "name": "ss-downloader",
+  "version": "1.0.0",
+  "description": "video downloader",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sultansingh731/ssdownloader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sultansingh731/ssdownloader/issues"
+  },
+  "homepage": "https://github.com/sultansingh731/ssdownloader#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
